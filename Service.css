@@ -1,0 +1,16 @@
+.hero-service  {
+  height: 550px;
+  background-image: url("../assets/electric-1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /*Text*/
+  text-align:center ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  color: rgb(184, 139, 24);
+  font-size: 3.8rem;
+}
