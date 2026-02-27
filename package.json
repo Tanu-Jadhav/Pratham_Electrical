@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "pratham_electrical",
   "private": true,
   "version": "0.0.0",
@@ -28,4 +29,7 @@
     "globals": "^16.5.0",
     "vite": "^7.2.4"
   }
+=======
+  "type": "module"
+>>>>>>> 00185fc47d51c0404846205d8eba012a093d1733
 }

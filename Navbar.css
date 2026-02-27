@@ -1,0 +1,68 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.hero-navbar {
+  background-color: rgb(31, 61, 81);
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+/* Container */
+.hero-navbar .container-fluid {
+  display: flex;
+  height: 20%;
+  align-items: center;
+}
+
+/* Brand */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(209, 184, 61) !important;
+  margin-left: 8px;
+}
+
+/* Logo */
+.logo {
+  height: 120px;
+  width: auto;
+  padding: 1% 0% 1% 1%;
+}
+
+/* Links */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .hero-navbar {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    height: 80px;
+    margin-top: -0%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
