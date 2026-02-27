@@ -1,0 +1,120 @@
+.footer {
+  background-color: rgb(31, 61, 81);
+  color: white;
+  padding: 40px 20px;
+}
+
+/* Main Container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
+}
+
+/* Each Column */
+.footer-col {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #00c3ff;
+}
+
+/* Menu Links */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #00c3ff;
+}
+
+/* Vertical Divider Line */
+.footer-divider {
+  width: 2px;
+  background: gray;
+  height: 180px;
+  opacity: 0.4;
+}
+
+/* Buttons */
+.footer-btn {
+  display: inline-block;
+  margin: 8px 0;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: transparent;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.footer-btn.light {
+  background: white;
+  color: black;
+}
+
+/* Email */
+.footer-email {
+  margin-top: 12px;
+  font-size: 14px;
+  color: lightgray;
+}
+
+/* Social Icons */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.footer-social a {
+  font-size: 26px;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: #00c3ff;
+}
+
+/* Bottom Text */
+.footer-bottom {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  color: gray;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+  
+}
